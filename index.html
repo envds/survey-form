@@ -1,0 +1,111 @@
+<!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="style.css">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <title> Career Interest Survey </title>
+	</head>
+<body>
+	<h1 id ="title">Send us your feedback!</h1>
+  <br />
+ <p id="description"> Complete your career interest survey to help you find the career best suited for you, based on your personal
+  profile. This will help us evaluate your opportunities and give you an informative report. </p> 
+
+<form id="survey-form" action="" method="post" autocomplete="on">
+
+<label id="name-label" for="Name">* Name</label>
+<input autofocus type="text" id="name" class="input-field" placeholder="Enter your Name" name="name" required>
+<br />
+<br />
+<label id="email-label" for="email">* Email </label>
+<input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Email">
+<br />
+<br />
+  
+  <label id="number-label" for="age">* Age</label> &nbsp  
+  <input type="number" name="age" id="number" min="1" max="125" class="input-field" placeholder="Age">
+<br/>
+<br />
+
+<label for="gender"> Gender</label> &nbsp
+<select id="dropdown" class="dropdown"  name="gender">
+<option disabled value="Select an option" >Select an option</option>
+<option>--</option>
+<option value="female">Female</option>
+<option value="male">Male</option>
+<option value="other">Other</option>
+</select>
+<br />
+<br />
+<br />
+
+What is your current career? Does it match your dream career?<br><br>
+ 
+ &nbsp; &nbsp; &nbsp; &nbsp;<textarea id="comments" class="input-field" style="width:450px;resize:both; height:43px;" name="comment" placeholder="e.g: I am a fighter pilot and yes I achieved my dream career..."></textarea>
+
+<br />
+<br />
+
+
+If you had the chance to change your current career field, would you do it? <br><br>
+<input type="radio" value="change" name="change">Yes
+<Input type="radio" value="change" name="change">No
+<br />
+<br />
+
+Field you are interested in:<br><br>
+<input name="interest" value="Mathematics" type="checkbox" class="interest">Mathematics
+<input name="interest" value="It Programming" type="checkbox" class="interest">IT Programming 
+<input name="interest" value="Education" type="checkbox" class="interest">Education
+<input name="interest" value="Business" type="checkbox" class="interest">Business
+<input name="interest" value="Journalism" type="checkbox" class="interest">Journalism <br>
+<input name="interest" value="Psychology" type="checkbox" class="interest">Psychology
+<input name="interest" value="Marketing" type="checkbox" class="interest">Marketing
+ 
+ <br />
+ <br />
+
+
+Personal Qualities:<br><br>
+<input name="Qualities" value="fast learner" type="checkbox" class="Qualities">Fast learner
+<input name="Qualities" value="Self-educated" type="checkbox" class="Qualities">Self-educated
+<input name="Qualities" value="Organized" type="checkbox" class="Qualities">Organized
+<input name="Qualities" value="Tenacious" type="checkbox" class="Qualities">Tenacious
+<input name="Qualities" value="Methodical" type="checkbox" class="Qualities">Methodical <br>
+<input name="Qualities" value="Self-motivated" type="checkbox" class="Qualities">Self-motivated
+<input name="Qualities" value="Creative" type="checkbox" class="Qualities">Creative 
+<input name="Qualities" value="Communicative" type="checkbox" class="Qualities">Communicative
+<input name="Qualities" value="Competetive" type="checkbox" class="Qualities">Competetive
+<input name="Qualities" value="Decision Maker" type="checkbox" class="Qualities">Decision Maker
+
+
+<br />
+</br />
+Hobbies*<br><br>
+<input name="Hobbies" value="Fishing"; type="checkbox" class="Hobbies">Fishing
+<input name="Hobbies" value="Cooking"; type="checkbox" class="Hobbies">Cooking
+<input name="Hobbies" value="Gardening"; type="checkbox" class="Hobbies">Gardening
+<input name="Hobbies" value="Programming"; type="checkbox" class="Hobbies">Programming
+<input name="Hobbies" value="Painting"; type="checkbox" class="Hobbies">Painting
+<input name="Hobbies" value="Listening to Music"; type="checkbox" class="Hobbies">Listening to Music
+<input name="Hobbies" value="Mountain Hiking"; type="checkbox" class="Hobbies">Mountain Hiking
+<input name="Hobbies" value="Playing Video Games"; type="checkbox" class="Hobbies">Playing Video Games
+<input name="Hobbies" value="Dancing"; type="checkbox" class="Hobbies">Dancing
+<input name="Hobbies" value="Networking"; type="checkbox" class="Hobbies">Networking
+
+<br />
+<br />
+
+ <button id="submit" type="submit">Submit</button>
+
+</form>	
+
+<footer> &copy <a href=
+"https://forum.freecodecamp.org/u/Navid" target="_blank">Navid</a> </footer>
+
+</body>
+<script src="script.js"></script>
+</html>
+
+

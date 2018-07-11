@@ -1,0 +1,75 @@
+ @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+ 
+body { font-family: 'Fredoka One', cursive; background-color:lightblue;
+        min-width:500px;
+        max-width: 48em;
+        border:2px solid darkturquoise;
+       
+        margin: 50px auto 50px auto;
+}
+
+#title{ padding: 30px 20px 30px 20px;
+      background-color:darkturquoise;
+      
+      color:white;
+      font-size:20px;
+      }     
+
+h1{ margin:-1px auto; }
+
+ #description { 
+
+              color:black;
+              margin:auto;
+              padding:10px;
+              text-align:center;
+
+  }
+
+
+#survey-form {  margin: 20px 40px 20px 40px; display:inline-block;}
+
+
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+ #submit{
+  background-color: #00ced1;
+  border-radius: 5px;
+  color:white;
+  font-size: 1em;
+  width: 100px;
+  height: 40px;
+  margin:25px auto;
+   
+  border:1px solid white;
+  }
+
+
+
+
+ #submit:active{ color:black; border-color:#00e;; }
+ 
+ /* input[type='checkbox'] {
+    -webkit-appearance:none;
+    width:30px;
+    height:30px;
+    background:white;
+    border-radius:5px;
+    border:2px solid #555;
+}
+input[type='checkbox']:checked {
+    background: #abd;
+}
+
+<input type="checkbox" />
+*/
+
+footer{ margin:auto; padding:0px 0px 0px 22em; }
+a  { text-decoration: none; }
