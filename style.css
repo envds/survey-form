@@ -2,8 +2,7 @@
  
 body { 
        font-family: 'Fredoka One', cursive;
-        background-color:#b5e1f0;
-      }
+        background-color:#b5e1f0; }
 
 .container {
   background-color: lightblue;
@@ -85,6 +84,7 @@ a {
 Media Queries
 ****************************/
 
+
 @media ( max-width: 768px ) {
   .container {
     width: 90%
@@ -97,12 +97,13 @@ Media Queries
   #comments {
     width: 70%;
   }
-   .footer{ padding:0px 0px 0px 15em; }
+   .footer{ padding:0px 0px 0px 24em; }
 }
+
 
 @media (max-width: 590px) {
   .container {
-    width: 100%;
+    width: 96%;
   }
   #comments {
     width: 60%;
@@ -113,9 +114,15 @@ Media Queries
   .footer{ padding:0px 0px 0px 11em; 
 }
 
-@media (max-width: 490px) {
+@media (max-width: 490px) { /*apple iphone 6s 6plus */
   .input-field {
     width: 60%;
   }
-   .footer{ padding:0px 0px 0px 10em; }
+  #comments {
+    width: 60%;
+  }
+  #survey-form {
+    width: 100%;
+  }
+   .footer{ padding:0px 0px 0px 9em; }
 }
